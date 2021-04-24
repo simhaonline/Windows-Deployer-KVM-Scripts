@@ -4,7 +4,7 @@ sudo apt update
 sudo apt upgrade -y
 sudo apt autoremove -y
 echo "Installing software"
-sudo apt install -y qemu qemu-kvm libvirt-daemon libvirt-clients bridge-utils virt-manager ovmf make
+sudo apt install -y qemu qemu-kvm libvirt-daemon libvirt-clients bridge-utils virt-manager ovmf make git
 echo "Installing Virsh-Api-Server"
 sudo git clone https://github.com/yoanndelattre/Virsh-Api-Server.git /Virsh-Api-Server
 cd /Virsh-Api-Server
