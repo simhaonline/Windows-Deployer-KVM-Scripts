@@ -70,7 +70,7 @@
       <source channel='org.spice-space.stream.0'/>
       <target type="virtio" name="com.redhat.spice.0"/>
     </channel>
-    <graphics type='spice' port="5900" autoport='no' listen='0.0.0.0' passwd='ubuntu'>
+    <graphics type='spice' port="5900" autoport='no' listen='0.0.0.0' passwd='windows'>
       <listen type='address' address='0.0.0.0'/>
       <image compression='auto_glz'/>
       <jpeg compression='always'/>
