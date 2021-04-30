@@ -11,7 +11,7 @@ cd /Virsh-Api-Server
 sudo make install
 cd ~/
 echo "Downloading ISOs"
-sudo wget -O /var/lib/libvirt/images/virtio-win.iso https://kvm-resources.s3.fr-par.scw.cloud/virtio-win-0.1.185.iso
+sudo wget -O /var/lib/libvirt/images/virtio-win.iso https://kvm-resources.s3.fr-par.scw.cloud/virtio-win.iso
 sudo wget -O /var/lib/libvirt/images/windows10.iso https://kvm-resources.s3.fr-par.scw.cloud/Windows10_custom_template.iso
 echo "Creating vm volume"
 sudo mkdir -p /media/vm_storage
