@@ -21,7 +21,6 @@ sudo virsh pool-start vm_storage
 sudo qemu-img create -f raw /media/vm_storage/win10.img 128G
 echo "Creating vm"
 sudo mkdir -p /var/lib/libvirt/xml
-sudo wget -O /var/lib/libvirt/xml/windows10_vm_template.xml https://github.com/yoanndelattre/Windows-Deployer-KVM-Scripts/raw/master/scripts-install/assets/windows10_vm_template.xml
 sudo wget -O /var/lib/libvirt/xml/windows10_vm_template_setup.xml https://github.com/yoanndelattre/Windows-Deployer-KVM-Scripts/raw/master/scripts-install/assets/windows10_vm_template_setup.xml
 sudo virsh define /var/lib/libvirt/xml/windows10_vm_template_setup.xml
 echo "Enabling autostart vm"
